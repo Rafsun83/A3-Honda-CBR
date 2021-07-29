@@ -1,0 +1,137 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.bg-color{
+    background-color: #264653;
+   
+}
+.head-text-first{
+    color: #E0E0E0;
+    font-size: 14px;
+
+}
+.head-text h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+
+   
+    
+}
+
+.head-text-last{
+  color:  #E0E0E0;
+  font-size: 16px;
+  
+ 
+  
+}
+.modal-button{
+    background-color: #E76F51;
+    width: 168px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+ 
+
+}
+
+
+/* feature images 
+ */
+ .featured-bike{
+     font-size: 48px;
+     font-family: 'Poppins', sans-serif;
+
+ }
+ .best-bike{
+     color: #E76F51;
+     font-family: 'Poppins', sans-serif;
+ }
+ .feature-image{
+     width: 288px;
+     height: 243px;
+ }
+ .first-fetured-gray-scale{
+    filter: grayscale(100%);
+ }
+
+ /* card  */
+ .card-h{
+     width: 322px;
+     height: 478px;
+ }
+ .clints-images img{
+     width: 149px;
+     height: 149px;
+
+ }
+.clints-text{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.fa-star{
+    color: #E76F51;
+}
+.clint-name{
+    color: #23A6F0;
+}
+
+/* question  */
+.freq-image img{
+    width: 423px;
+    height: 431px;
+}
+.accordion-size{
+    width: 552px;
+}
+
+/* top-bike review  */
+.top-bike img{
+    width: 177px;
+}
+
+
+/* slider  */
+.panda-bg{
+    background-color: black;
+    }
+.panda-button{
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
+
+/* footer 
+ */
+ .foot-design{
+     background-color: black;
+     height: 200px;
+ }
+ .foot-text{
+     color: white;
+ }
+
+  
+  .fab:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook-square{
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter-square {
+
+    color:#55ACEE;
+  }
+

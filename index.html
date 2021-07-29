@@ -7,20 +7,572 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda-CBR</title>
 
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- plane csss link -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/62d3bb42c7.js" crossorigin="anonymous"></script>
+
     <!-- bootstrape css link  -->
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
 </head>
 
 <body>
-    <header>
+    <header class="bg-color  container-fluid">
+        <!-- header part  -->
+        <section class=" container ">
+            <div class="row  justify-content-around justify-content-center align-items-center head-text ">
+                <div class="col col-lg-6 col-12">
+                    <p class="head-text-first">Computer-controlled digital transistorized with electronic
+                        advance</p>
+                    <h1 class="fw-bold">Honda CBR 300R</h1>
+                    <p class="head-text-last">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint.
+                        <br> Velit officia
+                        consequat
+                        duis enim velit mollit. <br> Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Purchase</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Are you agree with our trems and condition ?
+                                        </label>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Confirm Purchase</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col col-lg-6 col-12">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+
+
+            </div>
+
+        </section>
+
 
     </header>
 
     <main>
+        <!-- featured bike  -->
+
+        <section class="container ">
+            <h1 class="text-center mt-5 featured-bike fw-bold">Featured Bikes 2021 </h1>
+            <p class="text-center mb-5 best-bike fw-bold">best bike collection </p>
+
+
+            <div class="row justify-content-between">
+
+                <div class="col col-lg-4 col-12 col-md-6">
+                    <img class="first-fetured-gray-scale img-fluid feature-image" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col col-lg-4 col-12 col-md-6">
+                    <img class="feature-image img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col col-lg-4 col-12 col-md-6">
+                    <img class="first-fetured-gray-scale feature-image img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- card section 
+         -->
+        <section class="container">
+            <h1 class="text-center mt-5 featured-bike fw-bold mb-5">Happy <span class="best-bike"> Clients says</span>
+            </h1>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
+                <div class="col">
+                    <div class="card card-h ">
+                        <div class="clints-images  d-flex justify-content-center mt-5 ">
+                            <img src="images/user-1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body clints-text mt-3">
+
+                            <p class="card-text text-center">This is a wider card with supporting text below as a
+                                natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="text-center"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i></p>
+                            <h5 class="card-title text-center"><span class="clint-name fw-bold fs-6">Regina Miles</span>
+                            </h5>
+                            <h5 class="card-title text-center fw-bold fs-6">Banker</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-h ">
+                        <div class="clints-images  d-flex justify-content-center mt-5 ">
+                            <img src="images/user-2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body clints-text mt-3">
+
+                            <p class="card-text text-center">This is a wider card with supporting text below as a
+                                natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="text-center"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i></p>
+                            <h5 class="card-title text-center"><span class="clint-name fw-bold fs-6">Lusifa mink</span>
+                            </h5>
+                            <h5 class="card-title text-center fw-bold fs-6">Banker</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-h ">
+                        <div class="clints-images  d-flex justify-content-center mt-5  ">
+                            <img src="images/user-3.jpg" class="card-img-top rounded-circle" alt="...">
+                        </div>
+                        <div class="card-body clints-text mt-3">
+
+                            <p class="card-text text-center">This is a wider card with supporting text below as a
+                                natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="text-center"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                                    class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i></p>
+                            <h5 class="card-title text-center"><span class="clint-name fw-bold fs-6">jofar bro</span>
+                            </h5>
+                            <h5 class="card-title text-center fw-bold fs-6">Banker</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- question section  -->
+        <section class="container">
+            <h1 class="text-center mt-5 featured-bike fw-bold mb-5">Frequently Asked <span
+                    class="best-bike">Questions</span>
+            </h1>
+            <div class=" row">
+
+                <div class="col col-lg-6 col-12">
+                    <img class="img-fluid" src="images/faq.png" alt="">
+                </div>
+
+
+                <div class="col col-lg-6 col-12">
+
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item accordion-size ">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                    default,
+                                    until the <br>collapse plugin adds the appropriate classes that we use to
+                                    style.each
+                                    element. These classes control the overall appearance, as well as the
+                                    showing
+                                    and
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion-size ">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How can I tell if my helmet is old and I need a
+                                    new one?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by
+                                    default,
+                                    until the collapse plugin adds the appropriate classes that we use to style
+                                    each
+                                    element. These classes control the overall appearance, as well as the
+                                    showing
+                                    and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or
+                                    overriding
+                                    our default variables. It's also worth noting that just about any HTML can
+                                    go
+                                    within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion-size">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by
+                                    default,
+                                    until the collapse plugin adds the appropriate classes that we use to style
+                                    each
+                                    element. These classes control the overall appearance, as well as the
+                                    showing
+                                    and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or
+                                    overriding
+                                    our default variables. It's also worth noting that just about any HTML can
+                                    go
+                                    within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion-size">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by
+                                    default,
+                                    until the collapse plugin adds the appropriate classes that we use to style
+                                    each
+                                    element. These classes control the overall appearance, as well as the
+                                    showing
+                                    and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or
+                                    overriding
+                                    our default variables. It's also worth noting that just about any HTML can
+                                    go
+                                    within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+        </section>
+
+        <!-- top bike review  -->
+        <section class="container">
+            <div>
+                <h2 class=" my-4 pt-3 best-bike border-bottom pb-3">Top Bike Review</h2>
+                <div class="row g-3">
+                    <div class="col-lg-6 d-flex col-12">
+                        <div class="row">
+                            <div class="col-md-4 col-12 top-bike">
+                                <img src="images/bike-1.png" alt="">
+                            </div>
+                            <div class=" ps-3 col-md-8">
+                                <h4><a href="" class="text-decoration-none">Honda CBR 150R Matte</a> <i
+                                        class="fas fa-star"></i></h4>
+                                <p><strong>Price in Bangladesh</strong></p>
+                                <p>Honda CBR 150R Matte Black is a product of Honda. Its price is Tk 450,000.00. Honda
+                                    is the brand of Japan.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 d-flex col-12">
+                        <div class="row">
+                            <div class="col-md-4 col-12 top-bike">
+                                <img src="images/bike-2.png" alt="">
+                            </div>
+                            <div class=" ps-3 col-md-8">
+                                <h4><a href="" class="text-decoration-none">Roadmaster Rapido 165 Black</a> <i
+                                        class="fas fa-star"></i></h4>
+                                <p><strong>Price in Bangladesh</strong></p>
+                                <p>Roadmaster Rapido 165 is the cheaper one priced at Tk 184900. Honda CBR 150R Matte
+                                    Black brand origin is Japan.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 d-flex col-12">
+                        <div class="row">
+                            <div class="col-md-4 col-12 top-bike">
+                                <img src="images/bike-3.png" alt="">
+                            </div>
+                            <div class=" ps-3 col-md-8">
+                                <h4><a href="" class="text-decoration-none">Honda CB150R ExMotion</a> <i
+                                        class="fas fa-star fa-star-half-alt"></i></h4>
+                                <p><strong>Price in Bangladesh</strong></p>
+                                <p>Honda CBR 150R Matte Black is a product of Honda. Its price is Tk 450,000.00. Honda
+                                    is the brand of Japan.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 d-flex col-12">
+                        <div class="row">
+                            <div class="col-md-4 col-12 top-bike">
+                                <img src="images/bike-4.jpg" alt="">
+                            </div>
+                            <div class=" ps-3 col-md-8">
+                                <h4><a href="" class="text-decoration-none">Honda CBR150R Repsol</a> <i
+                                        class="fas fa-star fa-star-half-alt"></i></h4>
+                                <p><strong>Price in Bangladesh</strong></p>
+                                <p>Honda CBR 150R Matte Black is a product of Honda. Its price is Tk 450,000.00. Honda
+                                    is the brand of Japan.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- upcoming bike list  -->
+        <section class="container">
+            <h2 class=" my-4 pt-3 best-bike border-bottom pb-3">Up Coming Bike List</h2>
+
+            <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active panda-bg rounded-3">
+                        <div class="row   d-flex align-items-center">
+
+                            <div class="  col-lg-7 col-md-6 col-12 ps-5 head-text">
+                                <h1>Honda CBR 150R Matte Black</h1>
+                                <p class="head-text-last">Honda CBR 150R Matte Black is a product of Honda. Its price is
+                                    Tk 450,000.00. Honda
+                                    is the brand of Japan.</p>
+                                <h1>$4200</h1>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="modal-button" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Purchase
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Purchase</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Are you agree with our trems and condition ?
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Confirm Purchase</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class=" col-lg-5 col-md-6 col-12">
+                                <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item  panda-bg rounded-3">
+                        <div class="row  d-flex align-items-center">
+
+                            <div class="col-lg-7 col-md-6 col-12 ps-5 head-text">
+                                <h1>Roadmaster Rapido 165</h1>
+                                <p class="head-text-last">Roadmaster Rapido 165 is the cheaper one priced at Tk 184900.
+                                    Honda CBR 150R Matte Black brand origin is Japan.</p>
+                                <h1>$3420</h1>
+                                <button type="button" class="modal-button mb-3" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Purchase
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Purchase</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Are you agree with our trems and condition ?
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Confirm Purchase</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-12">
+                                <img src="images/bike-2.png" class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item  panda-bg rounded-3">
+                        <div class="row  d-flex align-items-center">
+
+                            <div class="col-lg-7 col-md-6 col-12 ps-5 head-text">
+                                <h1>Honda CB150R ExMotion</h1>
+                                <p class="head-text-last">Honda CBR 150R Matte Black is a product of Honda. Its price is
+                                    Tk 450,000.00. Honda is the brand of Japan.</p>
+                                <h1>$5200</h1>
+                                <button type="button" class="modal-button" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Purchase
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Purchase</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Are you agree with our trems and condition ?
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Confirm Purchase</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-12">
+                                <img src="images/bike-3.png" class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+        </section>
 
     </main>
 
-    <footer>
+    <footer class="foot-design d-flex justify-content-center justify-content-evenly align-items-center">
+
+
+        <div class="foot-text">
+            <h3>website about motorcycle in Bangladesh. </h3>
+            <small>© 2020 bike. All rights reserved</small>
+        </div>
+
+        <div>
+            <p><i class="fab fa-twitter-square"></i></p>
+            <p><i class="fab fa-facebook-square"></i></p>
+        </div>
+
 
     </footer>
 
